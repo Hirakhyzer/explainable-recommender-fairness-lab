@@ -1,0 +1,11 @@
+seed: 42
+users: 100
+items: 160
+interactions_per_user: 18
+top_k: 10
+methods:
+  - popularity
+  - content_based
+  - collaborative_similarity
+  - diversity_rerank
+  - fairness_rerank
