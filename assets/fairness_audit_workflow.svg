@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240">
+  <rect width="1000" height="240" fill="#f8fafc"/>
+  <style>.box{fill:white;stroke:#111827;stroke-width:2;rx:12}.txt{font-family:Arial,sans-serif;font-size:17px;fill:#111827}.small{font-size:13px;fill:#475569}.arrow{stroke:#16a34a;stroke-width:3;marker-end:url(#m)}</style>
+  <defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker></defs>
+  <rect class="box" x="30" y="70" width="170" height="95"/><text class="txt" x="60" y="108">Ranked lists</text><text class="small" x="60" y="135">per user</text>
+  <line class="arrow" x1="200" y1="118" x2="250" y2="118"/>
+  <rect class="box" x="250" y="70" width="170" height="95"/><text class="txt" x="285" y="108">Exposure</text><text class="small" x="285" y="135">provider shares</text>
+  <line class="arrow" x1="420" y1="118" x2="470" y2="118"/>
+  <rect class="box" x="470" y="70" width="170" height="95"/><text class="txt" x="500" y="108">Diversity</text><text class="small" x="500" y="135">entropy and coverage</text>
+  <line class="arrow" x1="640" y1="118" x2="690" y2="118"/>
+  <rect class="box" x="690" y="70" width="250" height="95"/><text class="txt" x="720" y="108">Governance report</text><text class="small" x="720" y="135">human review, caveats, audit log</text>
+</svg>
