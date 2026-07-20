@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="300" viewBox="0 0 1120 300">
+  <rect width="1120" height="300" fill="#f8fafc"/>
+  <style>.box{fill:white;stroke:#1f2937;stroke-width:2;rx:14}.txt{font-family:Arial,sans-serif;font-size:18px;fill:#111827}.small{font-size:14px;fill:#374151}.arrow{stroke:#2563eb;stroke-width:3;marker-end:url(#m)}</style>
+  <defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker></defs>
+  <rect class="box" x="30" y="88" width="150" height="100"/>
+  <text class="txt" x="55" y="125">Synthetic</text><text class="small" x="55" y="151">users, items,</text><text class="small" x="55" y="171">interactions</text>
+  <line class="arrow" x1="180" y1="138" x2="235" y2="138"/>
+  <rect class="box" x="235" y="88" width="150" height="100"/>
+  <text class="txt" x="260" y="125">Algorithms</text><text class="small" x="260" y="151">popularity,</text><text class="small" x="260" y="171">content, CF</text>
+  <line class="arrow" x1="385" y1="138" x2="440" y2="138"/>
+  <rect class="box" x="440" y="88" width="150" height="100"/>
+  <text class="txt" x="467" y="125">Reranking</text><text class="small" x="467" y="151">diversity and</text><text class="small" x="467" y="171">fair exposure</text>
+  <line class="arrow" x1="590" y1="138" x2="645" y2="138"/>
+  <rect class="box" x="645" y="88" width="150" height="100"/>
+  <text class="txt" x="675" y="125">Explain</text><text class="small" x="675" y="151">rationales and</text><text class="small" x="675" y="171">trust proxies</text>
+  <line class="arrow" x1="795" y1="138" x2="850" y2="138"/>
+  <rect class="box" x="850" y="88" width="220" height="100"/>
+  <text class="txt" x="885" y="125">Audit outputs</text><text class="small" x="885" y="151">fairness, bubbles,</text><text class="small" x="885" y="171">figures, reports</text>
+</svg>
