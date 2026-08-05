@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-label="Recommendation fairness workflow">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#f8fafc"/><stop offset="100%" stop-color="#eef2ff"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity=".12"/></filter>
+    <style>.title{font:800 26px Arial,Helvetica,sans-serif;fill:#0f172a}.box{font:700 15px Arial,Helvetica,sans-serif;fill:#0f172a}.small{font:500 12px Arial,Helvetica,sans-serif;fill:#475569}</style>
+  </defs>
+  <rect width="1100" height="360" rx="28" fill="url(#bg)"/>
+  <text class="title" x="550" y="45" text-anchor="middle">Responsible Recommendation Evaluation Workflow</text>
+  <g filter="url(#shadow)">
+    <rect x="55" y="98" width="150" height="82" rx="20" fill="#e0f2fe" stroke="#0891b2"/>
+    <text class="box" x="130" y="132" text-anchor="middle">Synthetic users</text><text class="small" x="130" y="156" text-anchor="middle">items + providers</text>
+    <rect x="250" y="98" width="150" height="82" rx="20" fill="#ede9fe" stroke="#7c3aed"/>
+    <text class="box" x="325" y="132" text-anchor="middle">Recommend</text><text class="small" x="325" y="156" text-anchor="middle">baseline algorithms</text>
+    <rect x="445" y="98" width="150" height="82" rx="20" fill="#dcfce7" stroke="#16a34a"/>
+    <text class="box" x="520" y="132" text-anchor="middle">Explain</text><text class="small" x="520" y="156" text-anchor="middle">reasons + evidence</text>
+    <rect x="640" y="98" width="150" height="82" rx="20" fill="#fee2e2" stroke="#e11d48"/>
+    <text class="box" x="715" y="132" text-anchor="middle">Audit fairness</text><text class="small" x="715" y="156" text-anchor="middle">exposure + bubbles</text>
+    <rect x="835" y="98" width="150" height="82" rx="20" fill="#fef3c7" stroke="#d97706"/>
+    <text class="box" x="910" y="132" text-anchor="middle">Human review</text><text class="small" x="910" y="156" text-anchor="middle">governance boundary</text>
+  </g>
+  <g stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M205 139 L250 139"/><path d="M400 139 L445 139"/><path d="M595 139 L640 139"/><path d="M790 139 L835 139"/></g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+  <g font-family="Arial" font-size="13" fill="#475569">
+    <text x="130" y="240" text-anchor="middle">No real users</text>
+    <text x="325" y="240" text-anchor="middle">Compare algorithms</text>
+    <text x="520" y="240" text-anchor="middle">Trace reasons</text>
+    <text x="715" y="240" text-anchor="middle">Detect concentration</text>
+    <text x="910" y="240" text-anchor="middle">Do not automate decisions</text>
+  </g>
+  <text class="small" x="550" y="315" text-anchor="middle">The lab emphasizes evidence, transparency, and governance before any real-world personalization claim.</text>
+</svg>
